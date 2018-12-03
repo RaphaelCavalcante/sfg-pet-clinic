@@ -1,0 +1,5 @@
+br\com\rhounsell\sfgpetclinic\model\PetType.class
+br\com\rhounsell\sfgpetclinic\model\Owner.class
+br\com\rhounsell\sfgpetclinic\model\Vet.class
+br\com\rhounsell\sfgpetclinic\model\Pet.class
+br\com\rhounsell\sfgpetclinic\model\Person.class
