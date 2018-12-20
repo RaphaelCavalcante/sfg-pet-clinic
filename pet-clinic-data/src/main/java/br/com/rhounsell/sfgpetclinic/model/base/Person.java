@@ -1,4 +1,4 @@
-package br.com.rhounsell.sfgpetclinic.model;
+package br.com.rhounsell.sfgpetclinic.model.base;
 
 public class Person {
 	private String firstName;

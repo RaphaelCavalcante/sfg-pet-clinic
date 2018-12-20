@@ -1,11 +1,7 @@
 package br.com.rhounsell.sfgpetclinic.services;
 
-import java.util.Set;
-
 import br.com.rhounsell.sfgpetclinic.model.Pet;
+import br.com.rhounsell.sfgpetclinic.services.base.ServiceBase;
 
-public interface PetService {
-	Pet findById(Long id);
-	Pet save(Pet owner);
-	Set<Pet> findAll();
+public interface PetService extends ServiceBase<Pet>{
 }
