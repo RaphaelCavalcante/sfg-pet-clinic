@@ -2,7 +2,13 @@ package br.com.rhounsell.sfgpetclinic.model;
 
 import java.time.LocalDate;
 
-public class Pet {
+import br.com.rhounsell.sfgpetclinic.model.base.BaseModel;
+
+public class Pet extends BaseModel{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private PetType petType;
 	private Owner owner;
 	private LocalDate birthDate;

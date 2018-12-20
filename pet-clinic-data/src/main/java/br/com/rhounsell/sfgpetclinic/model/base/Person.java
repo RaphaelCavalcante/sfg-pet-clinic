@@ -1,6 +1,10 @@
 package br.com.rhounsell.sfgpetclinic.model.base;
 
-public class Person {
+public class Person extends BaseModel{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private String firstName;
 	private String lastName;
 	public String getFirstName() {
