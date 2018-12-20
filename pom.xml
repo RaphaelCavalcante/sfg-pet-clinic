@@ -4,7 +4,7 @@
 
 	<groupId>br.com.rhounsell</groupId>
 	<artifactId>pet-clinic</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>pet-clinic</name>
@@ -49,7 +49,7 @@
 		</plugins>
 	</build>
 	<scm>
-		<developerConnection>scm:git:git@github.com:RaphaelCavalcante/sfg-pet-clinic.git</developerConnection>
-	    <tag>pet-clinic-0.0.1</tag>
+		<developerConnection>scm:git:https://github.com/RaphaelCavalcante/sfg-pet-clinic.git</developerConnection>
+	    <tag>HEAD</tag>
   </scm>
 </project>
