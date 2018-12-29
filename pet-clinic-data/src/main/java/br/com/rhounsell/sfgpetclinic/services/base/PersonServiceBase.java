@@ -1,5 +1,6 @@
 package br.com.rhounsell.sfgpetclinic.services.base;
 
-public interface PersonServiceBase <T> extends ServiceBase<T, Long>{
+@SuppressWarnings("hiding")
+public interface PersonServiceBase <T, Long> extends ServiceBase<T, Long>{
 	T findByLastName(String lastName);
 }
